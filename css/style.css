@@ -6,3 +6,28 @@
     style.css: You will write your css code for your portfolio website here. You can add other css files too but it must be under "css" folder.
 
 */
+.hj
+{
+  padding-left:130px;
+  margin-top:50px;
+  border-left: 3px solid black;
+}
+.tex
+{
+ background-color:whitesmoke;
+ border-radius:20px; 
+ width:200px; 
+ height:130px; 
+ padding:40px; 
+ margin-top:40px; 
+ text-align: center;
+}
+.ret{
+  background-color: whitesmoke;
+  border-radius: 20px;
+  width:220px;
+  height:100px;
+  padding:20px;
+  margin-top:40px;
+  text-align: center;
+}
