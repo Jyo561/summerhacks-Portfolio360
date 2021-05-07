@@ -31,3 +31,39 @@
   margin-top:40px;
   text-align: center;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+table {
+  width:500px;
+  height:320px;
+}
+th,td
+{
+  border: 6px solid black;
+  text-align: center;
+  height:85px;
+}
+.fol ul li {
+  display: inline;
+  margin: 1rem 1.5rem;
+  letter-spacing: 3px;
+  padding: 0.5rem 1rem;
+}
+.fol ul {
+  list-style-type: none;
+  padding: 0.5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+.fol ul li:hover {
+  background: #a2d5f2;
+  cursor: pointer;
+}
+.fol
+{
+  margin-left: 40px;
+}
