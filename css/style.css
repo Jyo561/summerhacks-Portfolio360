@@ -14,7 +14,7 @@
 }
 .tex
 {
- background-color:whitesmoke;
+ background-color: whitesmoke;
  border-radius:20px; 
  width:200px; 
  height:130px; 
@@ -66,4 +66,61 @@ th,td
 .fol
 {
   margin-left: 40px;
+}
+.fa {  
+  padding: 20px;  
+text-align: center;  
+  margin: 5px 2px;  
+  font-size: 30px;  
+  width: 50px;  
+}  
+.fa-facebook {  
+  background: #3B5998;  
+  color: white;  
+  border-radius: 50px;
+  margin-left: 40px;
+}  
+.fa-twitter {  
+  background: #55ACEE;  
+  color: white;  
+  border-radius: 50px;
+  
+}  
+
+.fa-instagram {  
+  background: #125688;  
+  color: white;  
+  border-radius: 50px;
+  
+}  
+.fa-youtube {  
+  background: #bb0000;  
+  color: white;  
+  border-radius: 50px;
+  
+}  
+.fa-google {  
+  background: #dd4b39;  
+  color: white;  
+  border-radius: 50px;
+  
+}  
+
+.fa:hover {  
+    opacity: 0.5;  
+}  
+.im 
+{
+  width:400px; 
+  height:200px;
+  margin-left:170px;
+  border: 4px solid #a2d5f2;
+}
+h5
+{
+  text-align: center;
+}
+.er
+{
+  text-align: right;
 }
