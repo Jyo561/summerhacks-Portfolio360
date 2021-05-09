@@ -1,24 +1,18 @@
-/* 
-    Summer Hacks
-    SOA Code Room
-    Project Template
-    Use this template: https://github.com/SOACodeRoom/summerhacks-projectName/generate
-    style.css: You will write your css code for your portfolio website here. You can add other css files too but it must be under "css" folder.
-
-*/
 .hj
 {
-  padding-left:130px;
+  padding-left:50px;
   margin-top:50px;
-  border-left: 3px solid aqua;
+  border-left: 3px solid black;
+ 
 }
-hr{
-  color:white;
-  height:20px;
+.ty
+{
+  margin-top:50px;
+  
 }
 .tex
 {
- background-color: #dbf6e9;
+ background-color:whitesmoke;
  border-radius:20px; 
  width:200px; 
  height:130px; 
@@ -27,7 +21,7 @@ hr{
  text-align: center;
 }
 .ret{
-  background-color: #dbf6e9;
+  background-color: whitesmoke;
   border-radius: 20px;
   width:220px;
   height:100px;
@@ -40,40 +34,6 @@ hr{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-table {
-  width:500px;
-  height:320px;
-}
-th,td
-{
-  border: 6px solid #9ddfd3;
-  text-align: center;
-  height:85px;
-  color:#dbf6e9;
-}
-.fol ul li {
-  display: inline;
-  margin: 1rem 1.5rem;
-  letter-spacing: 3px;
-  padding: 0.5rem 1rem;
-}
-.fol li{
-  color: #9ddfd3;
-}
-.fol ul {
-  list-style-type: none;
-  padding: 0.5rem;
-  margin: 1rem;
-  font-size: 1.5rem;
-}
-.fol ul li:hover {
-  background: #dbf6e9;
-  cursor: pointer;
-}
-.fol
-{
-  margin-left: 40px;
 }
 .fa {  
   padding: 20px;  
@@ -117,12 +77,39 @@ text-align: center;
 .fa:hover {  
     opacity: 0.5;  
 }  
+th,td
+{
+  border: 6px solid black;
+  text-align: center;
+  
+  height:80px;
+}
+.fol ul li {
+  display: inline;
+  margin: 1rem 1.5rem;
+  letter-spacing: 3px;
+  padding: 0.5rem 1rem;
+}
+.fol ul {
+  list-style-type: none;
+  padding: 0.5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+.fol ul li:hover {
+  background: #a2d5f2;
+  cursor: pointer;
+}
+.fol
+{
+  margin-left: 40px;
+}
 .im 
 {
   width:400px; 
   height:200px;
-  margin-left:170px;
-  border: 4px solid #9ddfd3;
+  margin-left:40px;
+  border: 4px solid #a2d5f2;
 }
 h5
 {
@@ -130,7 +117,12 @@ h5
 }
 .er
 {
-  text-align: right;
+  text-align: ;
+}
+table
+{
+  width:500px;
+  height:320px;
 }
 .slidershow{
   width: 700px;
@@ -156,7 +148,7 @@ h5
 {
   width: 50px;
   height: 10px;
-  border: 2px solid #9ddfd3;
+  border: 2px solid #487e95;
   margin: 6px;
   cursor: pointer;
   transition: 0.4s;
@@ -167,7 +159,7 @@ input[name="r"]{
 }
 .bar:hover
 {
-  background: #ffc93c;
+  background: #fed049;
 }
 .slides{
   width: 500%;
@@ -199,34 +191,4 @@ input[name="r"]{
 }
 #r6:checked ~ .s1{
   margin-left: -100%;
-}
-body
-{
-  background-color: #31326f;
-}
-.qw{
-  color: whitesmoke;
-}
-.toy a:link {
-  color: aqua;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.toy a:visited {
-  color: aqua;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.toy a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-.toy a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
 }
